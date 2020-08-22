@@ -1,22 +1,19 @@
-# Spotify Accounts Authentication Examples
+# SpotifyCater
 
-This project contains basic demos showing the different OAuth 2.0 flows for [authenticating against the Spotify Web API](https://developer.spotify.com/web-api/authorization-guide/).
+Welcome! This app allows you to access your favorite tracks as of recently with the click of a button. 
 
-These examples cover:
-
-* Authorization Code flow
-* Client Credentials flow
-* Implicit Grant flow
 
 ## Installation
 
-These examples run on Node.js. On [its website](http://www.nodejs.org/download/) you can find instructions on how to install it. You can also follow [this gist](https://gist.github.com/isaacs/579814) for a quick and easy way to install Node.js and npm.
+You must install Node.js for this app to run. [click here](http:/www.nodejs.org/download/) to find instructions to install it. 
 
-Once installed, clone the repository and install its dependencies running:
+After Node.js is installed, clone the repo and install dependencies with:
 
     $ npm install
 
 ### Using your own credentials
+In order to run this application, you must follow these instructions taken from the Spotify developers themselves to access your own client id and client secret to enter into app.js. The instructions will follow: 
+
 You will need to register your app and get your own credentials from the Spotify for Developers Dashboard.
 
 To do so, go to [your Spotify for Developers Dashboard](https://beta.developer.spotify.com/dashboard) and create your application. For the examples, we registered these Redirect URIs:
@@ -26,10 +23,10 @@ To do so, go to [your Spotify for Developers Dashboard](https://beta.developer.s
 
 Once you have created your app, replace the `client_id`, `redirect_uri` and `client_secret` in the examples with the ones you get from My Applications.
 
-## Running the examples
-In order to run the different examples, open the folder with the name of the flow you want to try out, and run its `app.js` file. For instance, to run the Authorization Code example do:
+## Running the app
+In order to run SpotifyCater, cd into the project directory and cater_app and enter into the command line:
 
-    $ cd authorization_code
+    $ cd src
     $ node app.js
 
-Then, open `http://localhost:8888` in a browser.
+Then, open `http://localhost:8888` in a browser, enter your credentials, and enjoy your playlist!
