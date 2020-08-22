@@ -18,7 +18,7 @@ You will need to register your app and get your own credentials from the Spotify
 
 To do so, go to [your Spotify for Developers Dashboard](https://beta.developer.spotify.com/dashboard) and create your application. For the examples, we registered these Redirect URIs:
 
-* http://localhost:8888 (needed for the implicit grant flow)
+* http://localhost:8888 
 * http://localhost:8888/callback
 
 Once you have created your app, replace the `client_id`, `redirect_uri` and `client_secret` in the examples with the ones you get from My Applications.
