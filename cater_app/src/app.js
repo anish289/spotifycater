@@ -5,8 +5,8 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = 'd0092d81d0234134a20152258d321425'; // Your client id
-var client_secret = '69de3fad30134c73b19625bc0aeb941a'; // Your secret
+var client_id = 'client_id'; // Your client id
+var client_secret = 'client_secret'; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
 
