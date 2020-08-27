@@ -1,6 +1,6 @@
 # SpotifyCater
 
-Welcome! This app allows you to retrieve a playlist with recommended tracks based on your recent listening activity with the click of a button (WIP).
+Welcome! This is a backend script that allows a user to retrieve a playlist with recommended tracks based on recent listening activity with the click of a button (WIP).
 
 
 ## Installation
