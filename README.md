@@ -1,6 +1,6 @@
 # SpotifyCater
 
-Welcome! This app allows you to access your favorite tracks as of recently with the click of a button. 
+Welcome! This app allows you to retrieve a playlist with recommended tracks based on your listening activity with the click of a button (WIP).
 
 
 ## Installation
