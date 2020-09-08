@@ -1,5 +1,7 @@
 # SpotifyCater
 
+UPDATE 09/08/2020: Spending time fixing up code/adding new features... learning more about async ops with JS so far
+
 Welcome! This is a backend script that allows a user to retrieve a playlist with recommended tracks based on recent listening activity with the click of a button (WIP).
 
 
